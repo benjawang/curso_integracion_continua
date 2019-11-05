@@ -18,6 +18,7 @@ public class Greeter {
    * Metodo de greet modificado.
    */
   public String greet(String someone) {
+    Long kk = new Long("2333");
     if(MAGICO > 1){
         return String.format("Hello, %s!", someone);
     }else{
